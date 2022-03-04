@@ -1,0 +1,52 @@
+.index{
+    width: 180px;
+    height: 100px;
+    border: 1px solid tomato;
+    box-shadow: 2px 2px rgb(165, 162, 162);
+    border-radius: 10px;
+}
+.box1{
+    color: tomato;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.iron{
+    width: 130px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+
+
+}
+.set{
+    color: white;
+    background-color: tomato;
+    margin-left: 70px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+
+}
+img{
+    filter: blur(5px);
+}
+.pet{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+img{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 130px;
+    left: 550px;
+}
+@media screen and (max-width:400px)  {
+    .fit{
+         position: absolute;
+         right:870px;
+     } 
+    
+}
